@@ -1,0 +1,45 @@
+.personal-card.mdl-card {
+  width: 100%;
+  max-width: 400px;
+	margin: 0 auto;
+}
+.personal-card > .mdl-card__title {
+  color: #fff;
+  padding-top:110%;
+  background: url('https://aboutme.imgix.net/background/users/g/r/a/grapescan_1498736035_83.jpg?q=40&dpr=2&auto=format&fit=max&w=1200&h=1797.7528089887642') center / cover;
+}
+.personal-card > .mdl-card__menu {
+  color: #fff;
+}
+
+ul {
+    text-align: center;
+    -webkit-margin-before: 0px;
+    -webkit-margin-after: 0px;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 0px;
+}
+
+.social-links {
+    margin: 0 auto;
+}
+
+li.social-links {
+    display:inline-block;
+    list-style-type: none;
+}
+
+a.social-link {
+    padding: 0;
+    margin: 10px;
+    width: 36px;
+    height: 36px;
+    font-size: 30px;
+    line-height: 36px;
+    cursor: pointer;
+    display: block;
+    float: left;
+    -webkit-font-smoothing: antialiased;
+    color: rgba(54, 71, 78, .7);
+}
