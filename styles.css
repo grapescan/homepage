@@ -12,6 +12,13 @@
   color: #fff;
 }
 
+.root {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
 ul {
     text-align: center;
     -webkit-margin-before: 0px;
