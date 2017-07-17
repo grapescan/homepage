@@ -1,22 +1,43 @@
-.personal-card.mdl-card {
+.mdl-card {
   width: 100%;
   max-width: 400px;
-	margin: 0 auto;
+	margin: 1rem auto;
 }
+h5 { /* for card titles */
+	margin-bottom: 0px;
+}
+.mdl-card__subtitle-text {
+	color:rgba(255, 255, 255, 180);
+}
+
 .personal-card > .mdl-card__title {
   color: #fff;
   padding-top:110%;
-  background: url('https://aboutme.imgix.net/background/users/g/r/a/grapescan_1498736035_83.jpg?q=40&dpr=2&auto=format&fit=max&w=1200&h=1797.7528089887642') center / cover;
-}
-.personal-card > .mdl-card__menu {
-  color: #fff;
+  background: url('https://aboutme.imgix.net/background/users/g/r/a/grapescan_1498736035_83.jpg?q=40&dpr=2&auto=format&fit=max&w=1200&h=1797.7528089887642')  scroll no-repeat center / cover;
 }
 
-.root {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translateX(-50%) translateY(-50%);
+.metronome-card > .mdl-card__title {
+  color: #fff;
+  padding-top:30%;
+  background: linear-gradient(to top, rgba(0, 103, 127, 20), rgba(0, 0, 0, 0)), url('images/metronome.png') center / cover;
+}
+
+.pairs-card > .mdl-card__title {
+  color: #fff;
+  padding-top:30%;
+  background: linear-gradient(to top, rgba(10, 10, 110, 20), rgba(0, 0, 0, 0)), url('images/pairs.png') center / cover;
+}
+
+.birthdays-card > .mdl-card__title {
+  color: #fff;
+  padding-top:30%;
+  background: linear-gradient(to top, rgba(10, 10, 110, 20), rgba(0, 0, 0, 0)), url('images/birthdays.png') center / cover;
+}
+
+.molniya-card > .mdl-card__title {
+  color: #fff;
+  padding-top:30%;
+  background: linear-gradient(to top, rgba(10, 10, 110, 20), rgba(0, 0, 0, 0)), url('images/molniya.png') center / cover;
 }
 
 ul {
