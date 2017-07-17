@@ -3,11 +3,16 @@
   max-width: 400px;
 	margin: 1rem auto;
 }
+
+a { /* for cards content */
+  text-decoration: none;
+}
+
 h5 { /* for card titles */
 	margin-bottom: 0px;
 }
 .mdl-card__subtitle-text {
-	color:rgba(255, 255, 255, 180);
+	color:rgba(255, 255, 255, 0.8);
 }
 
 .personal-card > .mdl-card__title {
@@ -19,25 +24,25 @@ h5 { /* for card titles */
 .metronome-card > .mdl-card__title {
   color: #fff;
   padding-top:30%;
-  background: linear-gradient(to top, rgba(0, 103, 127, 20), rgba(0, 0, 0, 0)), url('images/metronome.png') center / cover;
+  background: linear-gradient(to top, rgba(0, 48, 79, 0.7), rgba(0, 0, 0, 0)), url('images/metronome.png') center / cover;
 }
 
 .pairs-card > .mdl-card__title {
   color: #fff;
   padding-top:30%;
-  background: linear-gradient(to top, rgba(10, 10, 110, 20), rgba(0, 0, 0, 0)), url('images/pairs.png') center / cover;
+  background: linear-gradient(to top, rgba(74, 20, 140, 0.7), rgba(0, 0, 0, 0)), url('images/pairs.png') center / cover;
 }
 
 .birthdays-card > .mdl-card__title {
   color: #fff;
   padding-top:30%;
-  background: linear-gradient(to top, rgba(10, 10, 110, 20), rgba(0, 0, 0, 0)), url('images/birthdays.png') center / cover;
+  background: linear-gradient(to top, rgba(10, 10, 110, 0.7), rgba(0, 0, 0, 0)), url('images/birthdays.png') center / cover;
 }
 
 .molniya-card > .mdl-card__title {
   color: #fff;
   padding-top:30%;
-  background: linear-gradient(to top, rgba(10, 10, 110, 20), rgba(0, 0, 0, 0)), url('images/molniya.png') center / cover;
+  background: linear-gradient(to top, rgba(10, 10, 110, 0.7), rgba(0, 0, 0, 0)), url('images/molniya.png') center / cover;
 }
 
 ul {
